@@ -10,7 +10,7 @@ RumorEval-S, SemEval-8 contains raw data consists of claim, related posts, label
 # Run code
 Directly run training and eval  
 * make sure you have dataset under `data/`.  
-* download `roberta_base` and put this folderunder the `JSDRV/` root directory
+* download `roberta_base` and put this folder under the `JSDRV/` root directory
 
 * run the `train.py` file using `JSDRV/` as the working directory:
   * `python train.py --outdir . --config_file R.ini`, or
