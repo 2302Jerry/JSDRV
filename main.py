@@ -14,7 +14,7 @@ def accuracy(output, labels):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weight_decay', type=float, default=5e-4, help='Weight decay.')
+    parser.add_argument('--weight_decay', type=float, default=1e-4, help='Weight decay.')
     parser.add_argument('--train_path', help='train path')
     parser.add_argument("--roberta_hidden_dim", default=512, type=int, help="Total batch size for training.")
     parser.add_argument('--outdir', required=True, help='path to output directory')
